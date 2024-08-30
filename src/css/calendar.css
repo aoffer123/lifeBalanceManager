@@ -1,0 +1,11 @@
+/* Custom CSS for React Big Calendar */
+.rbc-event {
+  height: auto !important; /* Override any inline styles that might be setting the height */
+  min-height: 50px; /* Set a minimum height for events */
+  line-height: 1.2em; /* Adjust line height for better text display */
+}
+
+.rbc-event-content {
+  white-space: normal !important; /* Allow text to wrap */
+  overflow: visible !important; /* Prevent text from being cut off */
+}
